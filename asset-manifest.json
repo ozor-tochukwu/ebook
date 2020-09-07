@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ebook/static/css/main.4d18448c.chunk.css",
+    "main.js": "/ebook/static/js/main.488ecebf.chunk.js",
+    "main.js.map": "/ebook/static/js/main.488ecebf.chunk.js.map",
+    "runtime-main.js": "/ebook/static/js/runtime-main.df484a23.js",
+    "runtime-main.js.map": "/ebook/static/js/runtime-main.df484a23.js.map",
+    "static/js/2.7b2a6fb4.chunk.js": "/ebook/static/js/2.7b2a6fb4.chunk.js",
+    "static/js/2.7b2a6fb4.chunk.js.map": "/ebook/static/js/2.7b2a6fb4.chunk.js.map",
+    "index.html": "/ebook/index.html",
+    "precache-manifest.76309401a24a71d4db70d6d8733b6d30.js": "/ebook/precache-manifest.76309401a24a71d4db70d6d8733b6d30.js",
+    "service-worker.js": "/ebook/service-worker.js",
+    "static/css/main.4d18448c.chunk.css.map": "/ebook/static/css/main.4d18448c.chunk.css.map",
+    "static/js/2.7b2a6fb4.chunk.js.LICENSE.txt": "/ebook/static/js/2.7b2a6fb4.chunk.js.LICENSE.txt",
+    "static/media/cart.jpg": "/ebook/static/media/cart.6d5c1649.jpg",
+    "static/media/unn.jpg": "/ebook/static/media/unn.6dbc3ecf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df484a23.js",
+    "static/js/2.7b2a6fb4.chunk.js",
+    "static/css/main.4d18448c.chunk.css",
+    "static/js/main.488ecebf.chunk.js"
+  ]
+}
