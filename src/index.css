@@ -1,13 +1,120 @@
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(211, 228, 228);
+}
+.header{
+ /* background-color: rgb(52, 53, 53); */
+  height: 150px;
+  text-align: center;
+}
+.image {
+  height: 150px;
+  width: 150px;
+  align-self: auto;
+  margin: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lib {
+  height: 200px;
+  width: 300px;
+  align-self: auto;
+  margin: auto;
+}
+
+.theme{
+  font-size: large;
+}
+ .format{
+text-align: center;
+margin-top: 200px;
+ }
+
+.form{
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: large;
+  /* border-bottom: 5px thin greenyellow; */
+}
+
+
+
+.search{
+  color: white;
+  background-color:rgb(52, 53, 53) ;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+
+.potter{
+ background-color: rgb(218, 241, 250);  
+ /* display: flex; */
+ text-align: center;
+ width: 600px;
+ padding: 20px;
+ margin: auto;
+ margin-bottom: 30px;
+ /* border: 2px solid black; */
+ border-radius: 10px;
+}
+
+.potter > img {
+  height: 250px;
+  width: 200px;
+  margin: auto;
+}
+
+.potters{
+  background-color: rgb(237, 241, 248);
+  margin-left: 20px;
+  text-align: left;
+}
+.review{
+  color: white;
+  background-color:rgb(78, 88, 88) ;
+  height: 40px;
+  width: 150px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width : 1000px) {
+  
+  .potter{
+    background-color: rgb(218, 241, 250);  
+    /* display: flex; */
+    /* text-align: left; */
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   }
+   .potters{
+    background-color: rgb(237, 241, 248);
+    margin-left: 0px;
+  }
+
+  .lib {
+    height: 150px;
+    width: 200px;
+  }
+   .form{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: small;
+  }
+  .search{
+    color: rgb(218, 241, 250);
+    background-color: rgb(37, 34, 34);
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: large;
+    margin: 30px;
+  }
 }
